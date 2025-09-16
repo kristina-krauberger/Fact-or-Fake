@@ -54,14 +54,23 @@ Schwer: Spezialisierte historische Figuren
 Spielende: Nach 2 Runden wird der Gewinner ermittelt
 
 Projektstruktur
+
 fact-or-fake-wiki-game/
+
 │
+
 ├── main.py # Hauptprogramm und Spiellogik
+
 ├── controller/
+
 │ └── question_generator.py # Generierung von Fragen und Artikel-Paaren
+
 ├── view/
+
 │ └── game_gui.py # Benutzeroberfläche und Konsolen-Anzeige
+
 └── README.md # Diese Datei
+
 
 
 
