@@ -1,4 +1,4 @@
-Fact or Fake Wiki-Game
+Fact or Fake Wiki-Game - Ergebnis eines Hackathons
 Ein textbasiertes Spiel, bei dem Spieler zwischen echten und gefälschten Wikipedia-Artikeln unterscheiden müssen. Teste dein Wissen und deine Fähigkeit, Fake-News zu erkennen!
 
 Spielbeschreibung
@@ -19,6 +19,7 @@ beautifulsoup4
 requests
 
 Installation
+
 Repository klonen:
 
 git clone https://github.com/dein-username/fact-or-fake-wiki-game.git 
