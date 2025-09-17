@@ -83,7 +83,9 @@ fact-or-fake/
 ---
 
 ## 👥 Team & My Role  
-This project was created by a diverse 7-person team during the hackathon.  
+This project was developed during a 3-day hackathon by a diverse 7-person team.  
+The original repository was created and maintained by [Martin (Mk97x)](https://github.com/Mk97x). 
+
 My contributions included:  
 - **Project coordination**: structured meetings & time planning
 - **Coded input functionality**: implemented player input handling to support game interaction  
