@@ -1,78 +1,95 @@
-Fact or Fake Wiki-Game - Ergebnis eines Hackathons
-Ein textbasiertes Spiel, bei dem Spieler zwischen echten und gefälschten Wikipedia-Artikeln unterscheiden müssen. Teste dein Wissen und deine Fähigkeit, Fake-News zu erkennen!
+# Fact or Fake Wiki-Game 🎮  
 
-Spielbeschreibung
-Das "Fact or Fake" Wiki-Game ist ein unterhaltsames Bildungsspiel, bei dem Spieler ihre Faktenprüfungs-Fähigkeiten unter Beweis stellen müssen. In jeder Runde werden zwei Aussagen präsentiert - eine ist wahr (Fact), die andere ist falsch (Fake). Die Spieler müssen erraten, welche Aussage gefälscht ist.
+**Hackathon Project – Awarded *Best Game***  
 
-Features
-Mehrspieler-Modus: Bis zu 5 Spieler können gegeneinander antreten
-Drei Schwierigkeitsstufen: Einfach, Mittel und Schwer
-Echtzeit-Wikipedia-Daten: Alle Fakten stammen aus echten Wikipedia-Artikeln
-Farbiges Konsolen-Interface: Ansprechende visuelle Darstellung
-Punktesystem: Verfolge deinen Fortschritt und vergleiche dich mit anderen Spielern
+A text-based multiplayer game where players distinguish between real and fake Wikipedia articles. Test your knowledge and sharpen your ability to detect fake news!  
 
-Voraussetzungen
-Python 3.6 oder höher
-Installierte Python-Pakete:
-wikipedia
-beautifulsoup4
-requests
+---
 
-Installation
+## 📖 Description  
+The *Fact or Fake* Wiki-Game is an educational and entertaining project developed during a 3-day hackathon.  
+Players are presented with two statements – one true (*Fact*), one false (*Fake*) – and must identify the fake article.  
 
-Repository klonen:
+---
 
-git clone https://github.com/dein-username/fact-or-fake-wiki-game.git 
-cd fact-or-fake-wiki-game
-Virtuelle Umgebung erstellen (optional aber empfohlen):
-bash
+## ✨ Features  
+- **Multiplayer mode**: Up to 5 players can compete against each other  
+- **Difficulty levels**: Easy, Medium, Hard  
+- **Real-time Wikipedia data**: Facts are pulled live from Wikipedia via API  
+- **Colorful console interface** for an engaging experience  
+- **Scoring system**: Track your progress and compare results  
 
+---
+
+## 🛠️ Requirements  
+- Python 3.6 or higher  
+- Installed Python packages: `wikipedia`, `beautifulsoup4`, `requests`  
+
+---
+
+## 🚀 Installation  
+
+Clone the repository:  
+```bash
+git clone https://github.com/kristina-krauberger/fact-or-fake.git
+cd fact-or-fake
+```
+
+Create a virtual environment (optional but recommended):  
+```bash
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+```
 
-venv\Scripts\activate     # Windows
-
-Abhängigkeiten installieren:
+Install dependencies:  
+```bash
 pip install wikipedia beautifulsoup4 requests
+```
 
-Spiel starten
+Start the game:  
+```bash
 python main.py
+```
 
-Spielregeln
-Spieleranzahl: 1-5 Spieler
-Spielablauf:
-Jede Runde werden zwei Aussagen präsentiert
-Eine Aussage ist wahr (Fact), eine ist falsch (Fake)
-Spieler müssen die gefälschte Aussage identifizieren
-Bei richtiger Antwort gibt es einen Punkt
-Bei falscher Antwort ist der nächste Spieler an der Reihe
+---
 
-Schwierigkeitsstufen:
-Einfach: Bekannte Persönlichkeiten
-Mittel: Historische und kulturelle Persönlichkeiten
-Schwer: Spezialisierte historische Figuren
+## 🎲 Game Rules  
+- **Players**: 1–5  
+- **Gameplay**:  
+  - Each round presents two statements  
+  - One is *Fact*, the other is *Fake*  
+  - Players must identify the fake statement  
+- **Scoring**:  
+  - Correct = 1 point  
+  - Incorrect = turn passes to next player  
+- **Game End**: After 2 rounds, the winner is declared  
 
-Spielende: Nach 2 Runden wird der Gewinner ermittelt
+---
 
-Projektstruktur
+## 📂 Project Structure  
 
-fact-or-fake-wiki-game/
-
+```
+fact-or-fake/
 │
-
-├── main.py # Hauptprogramm und Spiellogik
-
+├── main.py                 # Main program & game logic
 ├── controller/
-
-│ └── question_generator.py # Generierung von Fragen und Artikel-Paaren
-
+│   └── question_generator.py   # Generates questions & article pairs
 ├── view/
+│   └── game_gui.py             # Console UI
+└── README.md
+```
 
-│ └── game_gui.py # Benutzeroberfläche und Konsolen-Anzeige
+---
 
-└── README.md # Diese Datei
+## 👥 Team & My Role  
+This project was created by a diverse 7-person team during the hackathon.  
+My contributions included:  
+- **Project coordination**: structured meetings & time planning
+- **Coded input functionality**: implemented player input handling to support game interaction  
+- **Team communication & collaboration**: ensured smooth interaction across different skill levels  
 
+---
 
-
-
-
+## 🏆 Outcome  
+- Awarded **Best Game** of the hackathon – recognized not only for the idea and coding, but especially for **outstanding teamwork and collaboration**.  
